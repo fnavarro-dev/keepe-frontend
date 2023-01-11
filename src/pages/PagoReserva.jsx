@@ -95,7 +95,7 @@ const PagoReservaPage = () => {
 
         <div className="abotonpagarcontenedor">
           <Link to="/ticket">
-            <Button className="abotonpagar">Pagar y Reservar</Button>
+            <Button className={"abotonpagar"}>Pagar y Reservar</Button>
           </Link>
         </div>
       </div>

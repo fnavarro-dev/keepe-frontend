@@ -27,6 +27,19 @@ const styles = {
     borderColor: "#5B5858",
     width: 110,
   },
+
+  seleccionado: {
+    color: "white",
+    backgroundColor: "#F23FAADE",
+    fontWeight: 700,
+    fontSize: 20,
+    borderColor: "#9B8B8B",
+    borderRadius: 10,
+    fontFamily: "Quicksand",
+    border: 2.74627,
+    borderColor: "#5B5858",
+    width: 110,
+  }
 };
 
 function ReservaTuHora() {
@@ -87,7 +100,7 @@ function ReservaTuHora() {
               <Button variant="light" style={styles.activado}>Libre</Button>{" "}
             </td>
             <td>
-              <Button variant="light" style={styles.activado}>Libre</Button>{" "}
+              <Button variant="light" style={styles.seleccionado}>Libre</Button>{" "}
             </td>
             <td>
               <Button variant="light" style={styles.activado}>Libre</Button>{" "}
