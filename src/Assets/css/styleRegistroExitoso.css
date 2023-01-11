@@ -1,0 +1,48 @@
+.retext {
+  color: #ffaf45;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+}
+
+.reservabuton {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.retext2 {
+  color: #4d307b;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+}
+
+.registroexitosoimagen {
+  background-image: url("/src/Assets/IMG/keepelogo2.png");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.ancla-style {
+  text-decoration: none;
+}
+
+/* tablet */
+@media (min-width: 992px) and (max-width: 1150px) {
+}
+
+/* escritorio */
+@media only screen and (min-width: 1151px) {
+}
+
+/* Tamaño del botón mediano en pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Tamaño del botón pequeño en pantallas pequeñas */
+@media (max-width: 767px) {
+}

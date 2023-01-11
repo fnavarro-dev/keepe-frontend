@@ -1,0 +1,29 @@
+.bg-form {
+  background: linear-gradient(180deg, #4d307b 0%, #f23faa 100%);
+}
+.border-radius {
+  border-radius: 19.1888px;
+}
+.botonIngresar:hover {
+  height: 180%;
+}
+#exclamacion {
+  color: rgb(212, 50, 50);
+}
+abbr {
+  color: rgb(212, 50, 50);
+}
+#imprimirTicket {
+  color: #f23faa 100%;
+}
+#qr {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 650px;
+  top: 180px;
+}
+#textosubtitulo {
+  left: 6500px;
+  top: 180px;
+}

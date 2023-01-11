@@ -1,0 +1,168 @@
+
+.iconotext {
+  font-weight: bold;
+  color: white;
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+.colorNav {
+  background-color: #ffaf45;
+}
+
+.titulo {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #512b8e;
+}
+.navKeepe {
+  height: 110px;
+}
+.icononav1  {
+  width: 52px;
+  height: 52px;
+}
+
+.textoNav1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  
+  /* identical to box height */
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 0;
+  margin-top: 3px;
+}
+.botonReserva {
+  background: #4d307b;
+  border-radius: 20px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+.img1 {
+  width: 1011px;
+  height: 495px;
+}
+#h31 {
+  color: #4d307b;
+  position: absolute;
+  bottom: 0.3%;
+  margin-right: 40;
+}
+.fixed-top {
+  background-color: #ffaf45;
+}
+.iconoUser {
+  width: 42px;
+  height: 45px;
+}
+
+.iancl {
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 32px;
+  /* identical to box height */
+  text-decoration: none;
+  color: #ffffff;
+}
+.iancl:hover {
+  font-size: 130%;
+  text-decoration: none;
+  background-color: #7043d1;
+  color: #ffffff;
+}
+.bg-ul {
+  background-color: #ffaf45;
+  border: none;
+}
+.btn {
+  background-color: #7043d1;
+  text-decoration: none;
+  border-radius: 200px;
+}
+.btn:hover {
+  background-color: #7043d1;
+}
+.btn:active {
+  background-color: #7043d1;
+}
+.center-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn.hover {
+  background-color: #7043d1;
+}
+
+@media (min-width: 992px) and (max-width: 1150px) {
+  .btn {
+    padding: 20px 40px;
+    /* font-size: 20px; */
+    width: 52px;
+    height: 55px;
+  }
+  .dropdownLi {
+    margin-left: 20%;
+  }
+}
+@media only screen and (min-width: 1151px) {
+  .dropdownLi {
+    margin-left: 40%;
+  }
+}
+/* Tamaño del botón mediano en pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn {
+    padding: 15px 30px;
+    /* font-size: 146px; */
+    width: 52px;
+    height: 55px;
+  }
+  .iancl:hover {
+    font-size: 40px;
+  }
+}
+
+/* Tamaño del botón pequeño en pantallas pequeñas */
+@media (max-width: 767px) {
+  .btn {
+    padding: 10px;
+    /* font-size: 14px; */
+    width: 52px;
+    height: 55px;
+  }
+
+  /* .iancl:hover {
+    /* font-size: 40px; */
+  /* background-color: #4d307b;
+    font-size: 130%;
+  } */
+}
+@media only screen and (max-width: 600px) {
+  /* Reglas CSS para dispositivos móviles */
+}

@@ -1,0 +1,48 @@
+.bg-promesas {
+  background: #f09037;
+}
+
+.imgPromesa {
+  width: 100.93px;
+  height: 60.29px;
+}
+
+.bg-redondo {
+  /* background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-imagen {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo-principal {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 70px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* 07COLOR */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

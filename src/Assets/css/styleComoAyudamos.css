@@ -1,0 +1,14 @@
+.texto-info-comoayudamos {
+  color: #ffaf45;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.icono-mensaje {
+  height: 100px;
+  width: 100px;
+  color: #36205a;
+}

@@ -1,0 +1,41 @@
+.text-tipo {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 99px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.text-color1 {
+  color: #000000;
+}
+.text-color2 {
+  color: #f09037;
+}
+.text-color3 {
+  color: #4d307b;
+}
+.text-nuestra {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 74px;
+  text-decoration-line: underline;
+  margin-left: 15%;
+}
+.parrafo {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 56px;
+
+  color: #000000;
+}
+
+/* .imagen-dimensiones {
+  width: 748.71px;
+  height: 439px;
+} */

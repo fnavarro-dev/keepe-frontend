@@ -1,0 +1,182 @@
+.borderRadius {
+  border-radius: 100px;
+  border-color: white;
+}
+
+.imgBasket {
+  width: 100%;
+  height: 495px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.botonimagen {
+  height: 400px;
+}
+
+/* .prim {
+  background-color: white;
+  justify-content: center;
+    font-size: 35px;
+  line-height: 44px;
+} */
+
+.clubgorila {
+  color: white;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+}
+
+.raqui {
+  text-transform: none;
+  bottom: 10%;
+  font-family: "Kumbh Sans", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  text-align: center;
+}
+
+.raquiBoton {
+  height: 104px;
+  background-color: #4d307b;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+  border-color: #886eb2;
+  border-top-color: #4d307b;
+}
+
+.raquiImagen1 {
+  background-image: url("/src/Assets/IMG/basket.jpg");
+  background-repeat: round;
+  height: 400px;
+  background-color: #4d307b;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-color: white;
+  border-bottom-color: #7052a0;
+}
+
+.raquiImagen2 {
+  background-image: url("/src/Assets/IMG/card 1.jpg");
+  background-repeat: round;
+  height: 400px;
+  background-color: #4d307b;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-color: #4d307b;
+}
+
+.raquiImagen3 {
+  background-image: url("/src/Assets/IMG/card 2.jpg ");
+  background-repeat: round;
+  height: 400px;
+  background-color: #4d307b;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-color: #4d307b;
+}
+
+.raquiImagen4 {
+  background-image: url("/src/Assets/IMG/card 3.jpg");
+  background-repeat: round;
+  height: 400px;
+  background-color: #4d307b;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-color: #4d307b;
+}
+
+.raquiTextoImagen {
+  text-transform: none;
+  bottom: 10%;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  display: flex;
+  text-align: left;
+  margin-left: 4rem;
+  margin-top: 18rem;
+}
+
+.ancla-style {
+  text-decoration: none;
+}
+
+/* tablet */
+@media (min-width: 992px) and (max-width: 1150px) {
+  .clubgorila {
+    position: relative;
+    left: 3%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+}
+
+/* escritorio */
+@media only screen and (min-width: 1151px) {
+  .clubgorila {
+    position: relative;
+    left: 8%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+  }
+}
+
+/* Tamaño del botón mediano en pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .clubgorila {
+    position: relative;
+    left: 14%;
+    right: 0%;
+    top: 40%;
+    bottom: 0%;
+  }
+}
+
+/* Tamaño del botón pequeño en pantallas pequeñas */
+@media (max-width: 767px) {
+  .clubgorila {
+    position: relative;
+    left: 7%;
+    right: 0%;
+    top: 22%;
+    bottom: 0%;
+    z-index: 1;
+    font-size: 1rem;
+  }
+
+  .raquiBoton {
+    border-color: #4d307b;
+    height: 60px;
+    background-color: #4d307b;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .raqui {
+    font-size: 1rem;
+  }
+
+  /* .colPadre {
+    height: fit-content;
+  } */
+
+  .imgBasket {
+    position: relative;
+    height: 200px;
+    margin-right: auto;
+  }
+
+  .pruebaAlto {
+  }
+}

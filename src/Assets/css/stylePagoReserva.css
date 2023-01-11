@@ -1,0 +1,252 @@
+p {
+  color: white;
+  font-family: Quicksand;
+  text-align: center;
+}
+
+.fondo {
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0.98) 0%, #4D307B 100%);
+  }
+
+.btn {
+  background-color: #F23FAADE;
+}
+
+
+
+.cabecera {
+  
+    background-image: url("/src/Assets/IMG/basketball-wallpaper-2.jpg");
+    background-size: 150%;
+    background-position: 20px 200px;
+    width: 100%;
+    max-width: 1920px;
+    height: 100px;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;  
+  }
+  @-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+    }
+            
+    @keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+    }
+
+.tituloblanco {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}
+
+.tituloblanco2 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 0rem;
+  font-size: medium;
+  
+}
+
+.color-nav {
+  background-color: 'orange';
+}
+
+/* CALENDARIO ESTILOS PROPIOS Y MODIFICACIONES DE SU CSS POR DEFECTO */
+
+.calendario {
+  display: flex;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+.react-calendar {
+  width: 400px;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Kumbh Sans', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.125em;
+}
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.75em;
+  color: #523A6A;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #17A1FA;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__tile--now {
+  background: #4D307B;
+  background-color: #e6e6e6;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background-color: #000000;
+  color: white;
+}
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+.react-calendar__tile--active {
+  background: #F23FAADE;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #F23FAADE;
+  color: white;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
+
+
+/* ELIGE TU TURNO ESTILOS */
+
+.horas {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center; 
+}
+
+.eligetuturno {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+
+}
+
+
+.abotonpagarcontenedor {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  width: 100%;
+
+
+}
+
+.abotonpagar {
+  border-color: #F23FAADE;
+  background-color: #F23FAADE;
+  border-radius: 30px;
+  padding: 0rem;
+  font-family: Kumbh Sans;
+  width: 100%;
+}
+
+.tarjetaimagen {
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 2rem;
+  justify-content: center;
+  
+
+}
+
+.tarjetaindividual {
+  border-color: white;
+  width: 500px;
+  padding-right: 0;
+  margin-right: 0;
+
+  
+}

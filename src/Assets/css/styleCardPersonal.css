@@ -1,0 +1,54 @@
+.card {
+  height: 315px;
+}
+.bg-card {
+  background: #3c1f79;
+  border-radius: 26px;
+}
+.bg-linkedin {
+  background-color: white;
+}
+
+.titulo-color {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+.titulo-color2 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 145%;
+  text-align: center;
+  color: #ffffff;
+}
+.col-medidas {
+  width: 271.62px;
+  height: 315px;
+}
+
+.bg-image:hover {
+  width: 102%;
+  height: 102%;
+}
+
+.titulo-principal-color {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 80px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #4d307b;
+}
+.margin-bottom {
+  margin-bottom: 100px;
+}

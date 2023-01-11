@@ -1,0 +1,140 @@
+#maincarrusel .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(202, 30, 205);
+  background: linear-gradient(
+    189deg,
+    rgba(202, 30, 205, 0.2) 100%,
+    rgba(60, 49, 84, 0.1) 100%
+  );
+  color: white;
+}
+.carousel .overlay .containertext-carrusel,
+.carousel .overlay .row {
+  height: 100%;
+}
+.titulo1 {
+  position: relative;
+  font-family: "Staatliches", cursive;
+  text-align: left;
+  bottom: -30px;
+  letter-spacing: 0.2rem;
+  font-size: 80px;
+}
+.titulo2 {
+  position: relative;
+  font-family: "Staatliches", cursive;
+  right: -190px;
+  top: -120px;
+  letter-spacing: 0.2rem;
+  font-size: 80px;
+}
+.titulo3 {
+  position: relative;
+  font-family: "Staatliches", cursive;
+  right: -26px;
+  top: -190px;
+  letter-spacing: 0.9rem;
+  font-size: 80px;
+}
+.img-logo img {
+  width: 90px;
+  height: 90px;
+}
+.texto-info {
+  position: relative;
+  top: -210px;
+  right: -50px;
+  text-align: justify;
+  text-shadow: 1px 1px 2px black;
+}
+.texto-info2 {
+  position: relative;
+  top: -230px;
+  right: -55px;
+  text-align: justify;
+  text-shadow: 1px 1px 2px black;
+}
+.texto-info {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+.texto-info2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+.boton-reservar-texto {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  padding: 40px;
+  text-shadow: 1px 1px 1px black;
+}
+.boton-reservar {
+  position: absolute;
+  height: 50px;
+  top: 310px;
+  left: 211px;
+  padding: 10px;
+  background: #5322bb;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 20px;
+  opacity: 0.9;
+}
+.boton-reservar:hover {
+  background: #814cf3;
+}
+.boton-reservar:active {
+  background: #502c9e;
+}
+.boton-reservar-texto {
+  color: #ffff;
+}
+.boton-admin {
+  position: absolute;
+  height: 33px;
+  width: 750px;
+  top: 390px;
+  left: 550px;
+  padding: 0px;
+  background: #525dc0;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.boton-admin-texto {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  text-shadow: 0.5px 1px 1px black;
+}
+.boton-admin img {
+  width: 30px;
+  padding: 1px;
+}
+.boton-admin:hover {
+  background: #2d3472;
+}
+.boton-admin:active {
+  background: #7280fc;
+}
+.boton-admin-texto {
+  color: #ffff;
+}

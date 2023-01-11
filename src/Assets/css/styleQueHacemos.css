@@ -1,0 +1,37 @@
+.icon-quehacemos {
+  font-size: 200px;
+  color: #36205a;
+}
+.texto-info-quehacemos {
+  color: #4d307b;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+}
+.texto-info-subinfo {
+  color: #36205a;
+}
+.texto-info-subinfo2 {
+  color: #36205a;
+}
+.texto-col-derecha {
+  color: #36205a;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 145%;
+  /* or 35px */
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-quehacemos {
+    font-size: 100px;
+    color: #36205a;
+  }
+  .texto-info-quehacemos {
+    text-align: center;
+  }
+}
