@@ -4,6 +4,12 @@
 .border-radius {
   border-radius: 19.1888px;
 }
+
+.botonIngresar {
+  color: white;
+  font-family: Quicksand;
+}
+
 .botonIngresar:hover {
   height: 180%;
 }

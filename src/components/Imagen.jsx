@@ -6,7 +6,7 @@ const styles = {
   
   imagenfull: {
     height: "100%",
-    width: "300px",
+    width: "450px",
   },
 };
 

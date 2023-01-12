@@ -4,6 +4,17 @@ p {
   text-align: center;
 }
 
+.abotonpagar {
+  border-color: white;
+  background-color: #F23FAADE;
+  border-radius: 30px;
+  font-family: Kumbh Sans;
+  padding: 1rem;
+    /* font-size: 14px; */
+    width: 100%;
+    
+}
+
 .fondo {
     background: linear-gradient(180deg, rgba(30, 30, 30, 0.98) 0%, #4D307B 100%);
   }
@@ -221,16 +232,7 @@ p {
 
 }
 
-.abotonpagar {
-  border-color: #F23FAADE;
-  background-color: #F23FAADE;
-  border-radius: 30px;
-  font-family: Kumbh Sans;
-  padding: 1rem;
-    /* font-size: 14px; */
-    width: 100%;
-    
-}
+
 
 .tarjetaimagen {
   padding-left: auto;
