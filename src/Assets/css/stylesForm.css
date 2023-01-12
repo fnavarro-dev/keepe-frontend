@@ -7,11 +7,12 @@
 
 .botonIngresar {
   color: white;
-  font-family: Quicksand;
+  font-family: KUMBH SANS;
 }
 
 .botonIngresar:hover {
   height: 180%;
+  color: #f23faa
 }
 #exclamacion {
   color: rgb(212, 50, 50);

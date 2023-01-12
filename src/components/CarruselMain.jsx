@@ -29,7 +29,7 @@ const CarruselMainComponent = () => {
               <div class="col-sm-12 col-12 col-lg-6 col-md-6 pt-5">
                 <h1 class="titulo1">
                   TU
-                  <span class="img-logo">
+                  <span class="img-logo-cliente">
                     <img src={logoCampana} alt="logo campana" />
                   </span>
                 </h1>
@@ -46,9 +46,11 @@ const CarruselMainComponent = () => {
                 <p class="texto-info2 col-sm-12 col-12 ">
                   en donde quieras y revisar los mejores precios.
                 </p>
-                <button class="boton-reservar" type="btn">
+                  <a href="/reserva">
+                <button  class="boton-reservar" type="btn">
                   <span class="boton-reservar-texto">Reserva aquí</span>
                 </button>
+                  </a>
               </div>
               <div class="container col-sm-12 col-12 col-lg-6 col-md-6 pt-5">
                 <div class="row">
@@ -56,10 +58,14 @@ const CarruselMainComponent = () => {
                     <span>
                       <img src={logoUsuario} alt="logo usuario" />
                     </span>
+                    <a href="/registroadmin">
+                      
                     <span class="boton-admin-texto">
                       Soy Administrador o propietario de un recinto, necesito
                       información para unirme a <strong>Keepe</strong>
                     </span>
+                 
+                    </a>
                   </button>
                 </div>
               </div>

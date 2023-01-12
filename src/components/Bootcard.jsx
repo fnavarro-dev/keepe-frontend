@@ -60,7 +60,7 @@ export default function BootCard() {
             </Link>
           </button>
           <button class="raquiBoton w-100" href="#">
-            <Link href="/iniciarsesion" class="ancla-style">
+            <Link to="/iniciarsesion" class="ancla-style">
               <h1 class="raqui">Reserva aquí</h1>
             </Link>
           </button>

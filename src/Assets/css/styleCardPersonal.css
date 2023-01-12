@@ -9,11 +9,34 @@
   background-color: white;
 }
 
+.centrado-medio{
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+.foto-linkedin {
+  
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.foto-linkedin:hover {
+  
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 12rem;
+  height: 12rem;
+}
+
 .titulo-color {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 32px;
   text-align: center;
   color: #ffffff;
@@ -22,19 +45,29 @@
   font-family: "Kumbh Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 145%;
   text-align: center;
   color: #ffffff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .col-medidas {
   width: 271.62px;
   height: 315px;
 }
 
+.centrado-medio:hover{
+  padding-left: 2.3rem;
+  padding-top: 1rem;
+}
+
 .bg-image:hover {
-  width: 102%;
-  height: 102%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 11rem;
+  height: 11rem;
 }
 
 .titulo-principal-color {

@@ -47,7 +47,7 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   
-  border-color: #886eb2;
+  border-color: #a79eb5;
   border-top-color: #4d307b;
 }
 
@@ -69,7 +69,8 @@
   background-color: #4d307b;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom-color: #4d307b;
+  border-color: white;
+  border-bottom-color: #7052a0;
 }
 
 .raquiImagen3 {
@@ -79,7 +80,8 @@
   background-color: #4d307b;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom-color: #4d307b;
+  border-color: white;
+  border-bottom-color: #7052a0;
 }
 
 .raquiImagen4 {
@@ -89,7 +91,8 @@
   background-color: #4d307b;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom-color: #4d307b;
+  border-color: white;
+  border-bottom-color: #7052a0;
 }
 
 .raquiTextoImagen {
