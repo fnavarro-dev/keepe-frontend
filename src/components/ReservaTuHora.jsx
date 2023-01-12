@@ -24,7 +24,7 @@ const styles = {
     borderRadius: 10,
     fontFamily: "Quicksand",
     border: 2.74627,
-    borderColor: "#5B5858",
+    
     width: 110,
   },
 
@@ -37,7 +37,7 @@ const styles = {
     borderRadius: 10,
     fontFamily: "Quicksand",
     border: 2.74627,
-    borderColor: "#5B5858",
+    
     width: 110,
   }
 };

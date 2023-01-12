@@ -228,9 +228,11 @@ p {
   border-color: #F23FAADE;
   background-color: #F23FAADE;
   border-radius: 30px;
-  padding: 0rem;
   font-family: Kumbh Sans;
-  width: 100%;
+  padding: 1rem;
+    /* font-size: 14px; */
+    width: 100%;
+    
 }
 
 .tarjetaimagen {
